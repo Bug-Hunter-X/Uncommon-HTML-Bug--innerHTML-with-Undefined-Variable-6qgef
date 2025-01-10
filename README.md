@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon bug in HTML that can be tricky to diagnose. The bug involves using the innerHTML property with a variable that is undefined. This does not throw an error but simply does not update the content of the div element as expected. The solution shows how to prevent this with proper error handling and checking for undefined variables.
